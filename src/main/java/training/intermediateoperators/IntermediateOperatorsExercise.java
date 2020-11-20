@@ -1,6 +1,5 @@
 package training.intermediateoperators;
 
-import javax.sql.ConnectionPoolDataSource;
 import java.util.List;
 import java.util.stream.Stream;
 
