@@ -1,0 +1,18 @@
+package designpattern.behavioral.command.command;
+
+import designpattern.behavioral.command.electronics.Electronics;
+
+import java.util.List;
+
+public class OnCommand implements Command {
+    List<Electronics> electronics;
+
+    public OnCommand(List<Electronics> electronics) {
+        this.electronics = electronics;
+    }
+
+    @Override
+    public void execute() {
+        electronics.forEach(Electronics::on);
+    }
+}

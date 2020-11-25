@@ -1,16 +1,12 @@
 package training.terminaloperators;
 
 import org.junit.Test;
-import training.intermediateoperators.IntermediateOperatorsExercise;
-import training.termialoperators.TerminalOperatorsExercise;
 
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
-import static training.TestUtils.tester;
 
 public class TerminalOperatorsTest {
 
